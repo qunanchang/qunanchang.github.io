@@ -1,0 +1,30 @@
+.screen {
+    position: absolute;
+    width: 1280px;
+    height: 731px;
+    left: 0px;
+    top: 53px;
+    background: #FFFFFF;
+}
+
+.bg {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #C4C4C4;
+    backdrop-filter: blur(43.5px);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.main-screen {
+    position: absolute;
+    left: -6.72%;
+    right: -6.72%;
+    top: 0%;
+    bottom: 17.24%;
+    background: url('main screen.png');
+    background-size: cover;
+    background-position: center;
+}
